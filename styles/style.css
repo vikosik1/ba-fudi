@@ -1,0 +1,305 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", "Myriad Pro", sans-serif;
+    color: black;
+}
+
+h2 {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+h2:after {
+    content: "";
+    background-color: #f57365;
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+}
+
+.ba-nav li {
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+.ba-a-decoration {
+    text-decoration: underline;
+}
+
+.ba-header_section__botton {
+    padding: 20px 80px 30px 80px;
+    border: 2px solid #fff;
+}
+
+.ba-p-otstup {
+    margin: 40px 0 70px 0;
+}
+
+.ba-header {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+}
+
+.ba-header-wrapper,
+.ba-main-get {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.ba-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.ba-main_recipes {
+    background-image: url(../img/bg.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #491a43;
+    text-align: center;
+    color: #fff;
+    padding: 260px 0 0 0;
+}
+
+.ba-main_recipes h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: "Times New Roman";
+    color: rgba(255, 255, 255, 0.702);
+    text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+}
+
+.ba-header-h1__span {
+    font-family: "Lato", "Myriad Pro", sans-serif;
+    display: block;
+    font-size: 100px;
+    font-weight: 600;
+    text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+    font-style: normal;
+    color: rgba(100%, 100%, 100%, 1);
+    letter-spacing: 0.1em;
+}
+
+.ba-main_recipes a {
+    color: #fff;
+}
+
+
+/* ----BEGIN GET SECTION---*/
+
+.col {
+    padding: 100px 5px;
+}
+
+.ba-main-get img:hover {
+    transform: rotate(360deg);
+    transition: 1.3s;
+}
+
+
+/* ----END GET SECTION---*/
+
+
+/* ---- PHONE SECTION---*/
+
+.ba-phone {
+    background-color: #f7f7f7;
+}
+
+.ba-phone-fon {
+    margin: -68px 90px 0 0;
+}
+
+.ba-phone-fon img {
+    display: block;
+}
+
+.ba-phone-wrapper {
+    padding-top: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.ba-article {
+    width: 50%;
+    padding-bottom: 290px;
+}
+
+.ba-article h2:after {
+    margin: 0;
+}
+
+.ba-article p {
+    text-align: left;
+}
+
+
+/* ----END PHONE SECTION---*/
+
+
+/* ----OTZIV SECTION---*/
+
+.ba-otziv {
+    background-color: #4a3949;
+    color: #fff;
+}
+
+.ba-otziv-wrapper {
+    background-image: url(../img/fon-otziv.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.ba-otziv-wrapper img {
+    padding-top: 80px;
+}
+
+.ba-otziv-wrapper p {
+    font-size: 30px;
+}
+
+.ba-otziv-wrapper span {
+    font-size: 18px;
+}
+
+.ba-cuisines ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.round,
+.round:before,
+.round:after {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: block;
+    content: '';
+}
+
+.round {
+    background-color: #796d79;
+    margin: 20px auto;
+}
+
+.round:before {
+    background-color: #fff;
+    margin-left: -20px;
+}
+
+.round:after {
+    background-color: #796d79;
+    margin: -10px 0 0 20px;
+}
+
+
+/* ----END OTZIV SECTION---*/
+
+
+/* ----CUSINES SECTION---*/
+
+.ba-cuisines {
+    text-align: center;
+}
+
+.ba-cuisines ul {
+    justify-content: space-between;
+}
+
+.ba-cuisines h2 {
+    margin-top: 100px;
+}
+
+.ba-cuisines ul li p {
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 0.833em;
+}
+
+.ba-cuisines ul li span {
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+/* ----END CUSINES SECTION---*/
+
+
+/* ----FOOTER SECTION---*/
+
+footer {
+    background-color: #f7f7f7;
+    border-top: 2px solid #e2e2e2;
+}
+
+.ba-footer {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ba-footer p {
+    font-size: 14px;
+    color: rgba(139, 139, 139, 0.502);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.ba-footer a {
+    color: rgb(139, 139, 139);
+    font-weight: bold;
+}
+
+.ba-design {
+    text-transform: uppercase;
+}
+
+.ba-design p {
+    letter-spacing: 0.2em;
+}
+
+
+/* ----END FOOTER SECTION---*/

@@ -264,6 +264,10 @@ h2:after {
     font-weight: normal;
 }
 
+.ba-cuisines__browse img {
+    width: 100%;
+}
+
 
 /* ----END CUSINES SECTION---*/
 
